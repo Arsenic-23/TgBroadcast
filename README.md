@@ -1,4 +1,4 @@
-🚀Multi-Account Broadcast Bot
+# 🚀Multi-Account Broadcast Bot
 
 A Telegram bot that allows you to log in up to 10 personal Telegram accounts, store their sessions, and broadcast a message to all groups and DMs from each account — all triggered via a single /broadcast command.
 
