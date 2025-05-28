@@ -5,7 +5,7 @@ A Telegram bot that allows you to log in up to 10 personal Telegram accounts, st
 
 ---
 
-⚙️ Features
+# ⚙️ Features
 
 🔐 Secure login via API ID + Hash + Phone + OTP
 
@@ -21,7 +21,7 @@ A Telegram bot that allows you to log in up to 10 personal Telegram accounts, st
 
 ---
 
-🛠 Setup
+# 🛠 Setup
 
 1. Install dependencies
 
@@ -44,7 +44,7 @@ python bot.py
 
 ---
 
-📌 How It Works
+# 📌 How It Works
 
 1. /start → Log in accounts (API ID → Hash → Phone → OTP)
 
@@ -65,7 +65,7 @@ python bot.py
 
 ---
 
-📂 Project Structure
+# 📂 Project Structure
 
 ├── bot.py                # Telegram bot logic
 ├── telethon_manager.py   # Telethon login + broadcast handler
@@ -76,7 +76,7 @@ python bot.py
 
 ---
 
-🔒 Notes
+# 🔒 Notes
 
 2FA not supported
 
