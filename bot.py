@@ -13,17 +13,13 @@ from telegram.ext import (
 
 from telethon_manager import login_account, broadcast_message, MAX_ACCOUNTS
 
-# States for login flow
 API_ID, API_HASH, PHONE, OTP = range(4)
 
-# Per-user temporary data for login
 user_login_data = {}
 user_messages = {}
 
-# Set up logging
 logging.basicConfig(level=logging.INFO)
 
-# Replace with your bot token
 BOT_TOKEN = "YOUR_BOT_TOKEN"
 
 # ------------------- Handlers ----------------------
